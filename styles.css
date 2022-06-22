@@ -1,0 +1,136 @@
+body{
+
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+  font-family: cursive;
+  font-size: 20px;
+  
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5em;
+  font-family: Sacramento,cursive;
+  margin: 0 auto;
+}
+h2{
+  color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+
+}
+
+
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+
+}
+.topc{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.bottomc{
+  position: absolute;
+  left: 200px;
+  top: 200px;
+
+}
+.mountain{
+  position: relative;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.cp{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.gym{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn{
+  color: blue;
+  line-height: 50px;
+}
+.middle-container{
+  margin: 50px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 30px;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container{
+
+  color: #11999E;
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+
+}
+.copyright{
+  font-size: 0.65em;
+  padding: 20px 0;
+  color: #EAF6F6;
+}
